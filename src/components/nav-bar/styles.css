@@ -1,0 +1,31 @@
+.nav-bar {
+  @apply flex justify-between items-center h-full py-2 px-4 border-b-2 border-b-yellow-400;
+}
+
+.menu-item {
+  @apply cursor-pointer hover:font-bold duration-500;
+}
+
+.menu-item.selected {
+  @apply border-b-2 border-b-yellow-400 font-bold;
+}
+
+.menu-mobile {
+  @apply flex md:hidden lg:hidden;
+}
+
+.menu-desktop {
+  @apply hidden md:flex lg:flex;
+}
+
+.menu-mobile .menu-item {
+  @apply p-4;
+}
+
+.menu-desktop .menu-list {
+  @apply flex gap-4;
+}
+
+.menu-desktop .menu-item {
+  @apply text-lg;
+}

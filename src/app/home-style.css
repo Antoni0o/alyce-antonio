@@ -1,0 +1,27 @@
+.home-wrapper {
+  @apply flex flex-col gap-10 justify-center overflow-y-scroll h-full w-screen lg:overflow-hidden lg:flex-row lg:items-center lg:justify-between;
+}
+
+.first-column {
+  @apply p-4;
+}
+
+.title {
+  @apply text-3xl md:text-5xl lg:text-6xl font-semibold;
+}
+
+.subtitle {
+  @apply text-base leading-3 md:text-4xl md:leading-4 lg:text-4xl lg:leading-8 italic opacity-75 mb-2;
+}
+
+p {
+  @apply opacity-75 text-sm mb-10 md:text-2xl;
+}
+
+.invitation-button {
+  @apply px-8 py-2 bg-yellow-400 hover:bg-transparent hover:font-bold hover:border-b-yellow-400 hover:border-b-2 transition-colors duration-500;
+}
+
+.second-column {
+  @apply flex items-center justify-center w-full bg-yellow-400 p-4 h-full lg:w-1/2;
+}

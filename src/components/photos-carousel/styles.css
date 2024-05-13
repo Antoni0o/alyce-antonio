@@ -1,0 +1,40 @@
+.overlay {
+  @apply w-screen flex flex-col cursor-pointer md:w-full lg:w-full;
+}
+
+.overlay .image {
+  @apply duration-700;
+}
+
+.overlay:hover img {
+  @apply sepia;
+}
+
+.step-buttons {
+  @apply flex absolute top-0 justify-between h-full w-full;
+}
+
+.step-button {
+  @apply invisible h-full w-1/2;
+}
+
+.next-button {
+  @apply flex items-center justify-start text-white duration-700 transition-colors;
+}
+
+.next-button:hover {
+  @apply bg-transparent bg-gradient-to-r from-black to-transparent text-white;
+}
+
+.prev-button {
+  @apply flex items-center justify-end text-white duration-700 transition-colors;
+}
+
+.prev-button:hover {
+  @apply bg-transparent bg-gradient-to-l from-black to-transparent text-white;
+}
+
+.overlay:hover .step-button {
+  @apply visible;
+}
+

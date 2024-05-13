@@ -1,0 +1,28 @@
+.wrapper {
+  background-color: #FFF9F0;
+  @apply flex h-full justify-center items-center;
+}
+
+.card {
+  @apply flex flex-col items-center justify-center border-yellow-400 rounded-none h-3/4 md:h-1/2 md:px-48;
+}
+
+.input {
+  @apply w-full;
+}
+
+.input-slot {
+  @apply border-yellow-400;
+}
+
+.invitation-button {
+  @apply w-full px-8 py-2 gap-2 text-foreground rounded-none bg-yellow-400 hover:bg-transparent hover:font-bold hover:border-b-yellow-400 hover:border-b-2 transition-colors duration-500;
+}
+
+.invitation-button.disabled {
+  @apply opacity-30;
+}
+
+.card-footer, .card-body {
+  @apply flex w-full justify-center;
+}
