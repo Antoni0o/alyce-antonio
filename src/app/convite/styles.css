@@ -16,7 +16,7 @@
 }
 
 .invitation-button {
-  @apply w-full px-8 py-2 gap-2 text-foreground rounded-none bg-yellow-400 hover:bg-transparent hover:font-bold hover:border-b-yellow-400 hover:border-b-2 transition-colors duration-500;
+  @apply w-full font-bold px-8 py-2 gap-2 text-foreground rounded-none bg-yellow-400 hover:bg-transparent hover:border-b-yellow-400 hover:border-b-2 transition-colors duration-500;
 }
 
 .invitation-button.disabled {
