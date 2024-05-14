@@ -9,7 +9,7 @@ type CodePageParams = {
 };
 
 async function getInvite(code: string): Promise<Invite | null> {
-  return await prisma.invite.findFirst({ where: { code: Number(code) } });
+  return await prisma.invite.findFirst({ where: { code: code } });
 }
 
 export default async function ValidatedInvitePage({ params: { code } }: CodePageParams) {
