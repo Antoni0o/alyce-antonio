@@ -3,8 +3,12 @@
   @apply flex h-full justify-center items-center;
 }
 
-.card {
+.validation-card {
   @apply flex flex-col items-center justify-center border-yellow-400 rounded-none h-3/4 md:h-1/2 md:px-48;
+}
+
+.card-footer, .card-body {
+  @apply flex w-full justify-center;
 }
 
 .input {
@@ -21,8 +25,4 @@
 
 .invitation-button.disabled {
   @apply opacity-30;
-}
-
-.card-footer, .card-body {
-  @apply flex w-full justify-center;
 }

@@ -1,0 +1,41 @@
+.wrapper {
+  background-color: #FFF9F0;
+  @apply flex h-full w-screen items-center justify-center;
+}
+
+.invite-card {
+  @apply flex flex-col justify-between border-yellow-400 border-double border-4 rounded-none w-5/6 sm:w-3/6 sm:h-5/6;
+}
+
+.title {
+  @apply text-4xl
+}
+
+.subtitle {
+  @apply text-sm md:text-xl;
+}
+
+hr {
+  @apply border-yellow-400;
+}
+
+p {
+  @apply w-full break-words opacity-75 text-sm text-justify lg:text-lg;
+}
+
+.ceremony-info p {
+  @apply opacity-45 text-xs lg:text-base;
+}
+
+.help-text {
+  @apply text-sm text-muted-foreground;
+}
+
+.help-link {
+  @apply underline text-yellow-600 hover:text-yellow-700
+}
+
+.footer-wrapper {
+  @apply flex flex-col;
+}
+

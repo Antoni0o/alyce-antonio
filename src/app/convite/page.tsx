@@ -1,13 +1,13 @@
 'use client';
 
+import Link from "next/link";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { InputOTP, InputOTPGroup, InputOTPSeparator, InputOTPSlot } from "@/components/ui/input-otp";
-import './styles.css';
-import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import { REGEXP_ONLY_DIGITS } from "input-otp";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
 import { Loader2 } from "lucide-react";
+import './invite-validation-style.css';
 
 export default function InvitationPage() {
   const [code, setCode] = useState("");
@@ -15,7 +15,7 @@ export default function InvitationPage() {
 
   return (
     <main className="wrapper">
-      <Card className="card">
+      <Card className="validation-card">
         <CardHeader>
           <CardTitle>Validação de Convite</CardTitle>
           <CardDescription>Digite o código do seu convite</CardDescription>
