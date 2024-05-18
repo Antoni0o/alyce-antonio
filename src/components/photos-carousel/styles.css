@@ -3,7 +3,7 @@
 }
 
 .overlay .image {
-  @apply duration-700;
+  @apply h-full duration-700;
 }
 
 .overlay:hover img {
