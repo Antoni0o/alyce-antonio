@@ -1,0 +1,35 @@
+.gift-card-wrapper {
+  @apply flex flex-col p-2 border-2 border-yellow-400;
+}
+
+.image {
+  @apply flex justify-center w-auto h-auto mb-4;
+}
+
+.content {
+  @apply flex justify-between items-center p-2;
+}
+
+.content .action {
+  @apply flex justify-end w-full
+}
+
+.content .info {
+  @apply w-full;
+}
+
+.content .info h2 {
+  @apply text-xl font-bold lg:text-3xl;
+}
+
+.content .info h3 {
+  @apply italic text-lg leading-3 lg:text-xl;
+}
+
+.footer {
+  @apply flex justify-end
+}
+
+.dialog-image-wrapper {
+  @apply flex justify-center;
+}

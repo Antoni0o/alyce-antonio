@@ -37,7 +37,7 @@ export default async function ValidatedInvitePage({ params: { code } }: CodePage
               <hr className="my-2" />
               <div className="ceremony-info">
                 <p>A cerimônia ocorrerá no dia 20 de julho, às 9:00</p>
-                <p>O endereço para celebrar esse momento conosco é: xxx xxxxxxxx xxxxxxxxxxx xxxxxxxxxxxxx xxxxxx xxxxxxxx</p>
+                <p>O endereço para celebrar esse momento conosco é: Rua MMDC, 117, Vila Passos, Lorena - SP</p>
               </div>
             </CardContent>
           </div>
@@ -47,7 +47,7 @@ export default async function ValidatedInvitePage({ params: { code } }: CodePage
             </div>
             <hr className="mb-6" />
             <CardFooter className="flex-col">
-              <span className="help-text">Quer nos presentear? <Link className="help-link" href='/nos-ajude'>Clique aqui</Link></span>
+              <span className="help-text">Quer nos presentear? <Link className="help-link" href='/presentes'>Clique aqui</Link></span>
             </CardFooter>
           </div>
         </Card>

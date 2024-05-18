@@ -6,6 +6,7 @@ import "./globals.css";
 
 import Navbar from "@/components/nav-bar";
 import Footer from "@/components/footer";
+import { Toaster } from "@/components/ui/toaster";
 
 const classyVogue = localFont({ src: '../../public/fonts/Classyvogueregular.ttf' });
 
@@ -35,6 +36,7 @@ export default function RootLayout({
           </footer>
         </div>
       </body>
+      <Toaster />
       <Analytics />
       <SpeedInsights />
     </html>

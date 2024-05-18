@@ -1,0 +1,19 @@
+.gifts-wrapper {
+  @apply flex flex-col justify-between h-full px-4 py-6;
+}
+
+h1 {
+  @apply font-bold text-xl
+}
+
+.gifts-list {
+  @apply grid grid-cols-1 gap-4 p-2 h-[65vh] overflow-y-auto border-2 border-yellow-400 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5;
+}
+
+.button {
+  @apply rounded-none bg-yellow-400 border-yellow-400 text-foreground font-bold hover:border-b-2 hover:bg-transparent transition-all duration-500;
+}
+
+.pix-area {
+  @apply flex flex-col justify-center text-center text-lg font-bold;
+}

@@ -4,7 +4,7 @@ import "./home-style.css";
 
 export default async function Home() {
   return (
-    <section className="home-wrapper">
+    <main className="home-wrapper">
       <div className="first-column">
         <h1 className="title">Alyce&Antonio</h1>
         <h2 className="subtitle save-the-date">Save the Date — 20 de julho de 2024</h2>
@@ -15,6 +15,6 @@ export default async function Home() {
       <div className="second-column">
         <PhotosCarousel />
       </div>
-    </section>
+    </main>
   );
 }
