@@ -111,6 +111,7 @@ export default function Gifts() {
             </DialogClose>
           </DialogContent>
         </Dialog>
+        <h2 className="italic opacity-50">*Para outras formas de presentear, entre em contato com os noivos</h2>
       </section>
     </main>
   );
