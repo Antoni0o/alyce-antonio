@@ -29,39 +29,95 @@ const gifts: GiftInfoType[] = [
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406375.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510AtL46A9ZV26304D707"
   },
   {
-    title: "Air Fryer",
-    photo: '/products/air-fryer.png',
-    price: 375.00,
-    qrCodeImage: '/products/air-fryer-qrcode.png',
-    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406375.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510AtL46A9ZV26304D707"
+    title: "Jogo de Copos",
+    photo: '/products/jogo-de-copos.jpg',
+    price: 40.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
   },
   {
-    title: "Air Fryer",
-    photo: '/products/air-fryer.png',
-    price: 375.00,
-    qrCodeImage: '/products/air-fryer-qrcode.png',
-    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406375.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510AtL46A9ZV26304D707"
+    title: "Jogo de Xícaras",
+    photo: '/products/jogo-de-xicaras.jpg',
+    price: 80.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
   },
   {
-    title: "Air Fryer",
-    photo: '/products/air-fryer.png',
-    price: 375.00,
-    qrCodeImage: '/products/air-fryer-qrcode.png',
-    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406375.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510AtL46A9ZV26304D707"
+    title: "Jogo de Pratos",
+    photo: '/products/jogo-pratos.png',
+    price: 70.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
   },
   {
-    title: "Air Fryer",
-    photo: '/products/air-fryer.png',
-    price: 375.00,
-    qrCodeImage: '/products/air-fryer-qrcode.png',
-    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406375.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510AtL46A9ZV26304D707"
+    title: "Cafeteira",
+    photo: '/products/cafeteira.png',
+    price: 150.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
   },
   {
-    title: "Air Fryer",
-    photo: '/products/air-fryer.png',
-    price: 375.00,
-    qrCodeImage: '/products/air-fryer-qrcode.png',
-    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406375.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510AtL46A9ZV26304D707"
+    title: "Máquina de Lavar Roupas",
+    photo: '/products/maquina-roupas.png',
+    price: 1400.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
+  },
+  {
+    title: "Jogo de Talheres",
+    photo: '/products/jogo-talheres.png',
+    price: 45.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
+  },
+  {
+    title: "Jogo Americano",
+    photo: '/products/jogo-americano.jpg',
+    price: 50.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
+  },
+  {
+    title: "Jogo de Sobremesa",
+    photo: '/products/jogo-sobremesa.jpg',
+    price: 45.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
+  },
+  {
+    title: "Utensílios de Cozinha",
+    photo: '/products/utensilios-cozinha.jpg',
+    price: 50.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
+  },
+  {
+    title: "Aspirador de Pó",
+    photo: '/products/aspirador.png',
+    price: 180.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
+  },
+  {
+    title: "Jogo de Cama",
+    photo: '/products/jogo-de-cama.png',
+    price: 175.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
+  },
+  {
+    title: "Jogo de Panelas",
+    photo: '/products/jogo-de-panelas.jpg',
+    price: 275.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
+  },
+  {
+    title: "Microondas",
+    photo: '/products/microondas.png',
+    price: 550.00,
+    qrCodeImage: '/pix-qr-code.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Mkyme3OGbO630425B0"
   }
 ];
 

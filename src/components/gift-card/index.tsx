@@ -34,7 +34,7 @@ export default function GiftCard({ gift }: GiftCardPropsType) {
             <DialogContent>
               <DialogTitle>QR Code:</DialogTitle>
               <div className="dialog-image-wrapper">
-                <Image src={gift.qrCodeImage} alt={gift.title} width={400} height={300} />
+                <Image src={gift.qrCodeImage} alt={gift.title} width={200} height={200} />
               </div>
               <DialogClose asChild>
                 <Button
@@ -52,9 +52,6 @@ export default function GiftCard({ gift }: GiftCardPropsType) {
             </DialogContent>
           </Dialog>
         </div>
-      </div>
-      <div className="footer">
-
       </div>
     </section>
   );
