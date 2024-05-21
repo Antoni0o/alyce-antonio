@@ -24,7 +24,7 @@ export async function generateMetadata(
   if (invite) {
     return {
       title: "Convite para o casamento",
-      description: `Olá, ${invite?.name}! Estamos muito felizes em te convidar para o nosso casamento. Para acessar o convite, use o código ${invite.code} no próximo acesso`,
+      description: `Olá, ${invite?.name}! Seu código é: ${invite.code}; use no próximo acesso`,
     }
   }
 
