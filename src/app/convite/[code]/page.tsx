@@ -3,6 +3,7 @@ import prisma from "@/lib/client";
 import { Invite } from "@prisma/client";
 import './invite-style.css';
 import Link from "next/link";
+import { Metadata, ResolvingMetadata } from "next";
 
 type CodePageParams = {
   params: {
@@ -12,6 +13,25 @@ type CodePageParams = {
 
 async function getInvite(code: string): Promise<Invite | null> {
   return await prisma.invite.findFirst({ where: { code: code } });
+}
+
+export async function generateMetadata(
+  { params }: CodePageParams,
+): Promise<Metadata> {
+  // read route params
+  const invite = await getInvite(params.code);
+
+  if (invite) {
+    return {
+      title: "Convite para o casamento",
+      description: `Olá, ${invite?.name}! Estamos muito felizes em te convidar para o nosso casamento. Para acessar o convite, use o código ${invite.code} no próximo acesso`,
+    }
+  }
+
+  return {
+    title: "Convite para o casamento",
+    description: `Convite não encontrado :/`
+  }
 }
 
 export default async function ValidatedInvitePage({ params: { code } }: CodePageParams) {
