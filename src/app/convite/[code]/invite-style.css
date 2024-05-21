@@ -24,11 +24,11 @@ p {
 }
 
 .ceremony-info p {
-  @apply opacity-45 text-xs lg:text-base;
+  @apply opacity-65 text-xs lg:text-base;
 }
 
 .help-text {
-  @apply text-sm text-muted-foreground;
+  @apply text-sm;
 }
 
 .help-link {
