@@ -32,91 +32,91 @@ const gifts: GiftInfoType[] = [
     title: "Jogo de Copos",
     photo: '/products/jogo-de-copos.jpg',
     price: 40.00,
-    qrCodeImage: '/40-qrcode.png',
+    qrCodeImage: '/products/a40-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540540.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510Nus72SDo1X6304839E"
   },
   {
     title: "Jogo de Xícaras",
     photo: '/products/jogo-de-xicaras.jpg',
     price: 80.00,
-    qrCodeImage: '/80-qrcode.png',
+    qrCodeImage: '/products/a80-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540580.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510iI2FjeKNIg63049B05"
   },
   {
     title: "Jogo de Pratos",
     photo: '/products/jogo-pratos.png',
     price: 70.00,
-    qrCodeImage: '/70-qrcode.png',
+    qrCodeImage: '/products/a70-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540570.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510KQFwbfFsdC6304F69E"
   },
   {
     title: "Cafeteira",
     photo: '/products/cafeteira.png',
     price: 150.00,
-    qrCodeImage: '/150-qrcode.png',
+    qrCodeImage: '/products/a150-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406150.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510gO3buf3QfN63043DEB"
   },
   {
     title: "Máquina de Lavar Roupas",
     photo: '/products/maquina-roupas.png',
     price: 1400.00,
-    qrCodeImage: '/1400-qrcode.png',
+    qrCodeImage: '/products/a1400-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+551299640637252040000530398654071400.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510w2CcH03pHG6304EA5C"
   },
   {
     title: "Jogo de Talheres",
     photo: '/products/jogo-talheres.png',
     price: 45.00,
-    qrCodeImage: '/45-qrcode.png',
+    qrCodeImage: '/products/a45-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540545.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510hknxK7Yigr63042553"
   },
   {
     title: "Jogo Americano",
     photo: '/products/jogo-americano.jpg',
     price: 50.00,
-    qrCodeImage: '/50-qrcode.png',
+    qrCodeImage: '/products/a50-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540550.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510u31vAP98gr63044D1D"
   },
   {
     title: "Jogo de Sobremesa",
     photo: '/products/jogo-sobremesa.jpg',
     price: 45.00,
-    qrCodeImage: '/45-qrcode.png',
+    qrCodeImage: '/products/a45-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540545.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510hknxK7Yigr63042553"
   },
   {
     title: "Utensílios de Cozinha",
     photo: '/products/utensilios-cozinha.jpg',
     price: 50.00,
-    qrCodeImage: '/50-qrcode.png',
+    qrCodeImage: '/products/a50-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540550.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510u31vAP98gr63044D1D"
   },
   {
     title: "Aspirador de Pó",
     photo: '/products/aspirador.png',
     price: 180.00,
-    qrCodeImage: '/180-qrcode.png',
+    qrCodeImage: '/products/a180-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406180.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510QDCBM2rgkw63048685"
   },
   {
     title: "Jogo de Cama",
     photo: '/products/jogo-de-cama.png',
     price: 175.00,
-    qrCodeImage: '/175-qrcode.png',
+    qrCodeImage: '/products/a175-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406175.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510KprloRjXn66304B238"
   },
   {
     title: "Jogo de Panelas",
     photo: '/products/jogo-de-panelas.jpg',
     price: 275.00,
-    qrCodeImage: '/275-qrcode.png',
+    qrCodeImage: '/products/a275-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406275.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510wyPX7vbtkE6304714E"
   },
   {
     title: "Microondas",
     photo: '/products/microondas.png',
     price: 550.00,
-    qrCodeImage: '/550-qrcode.png',
+    qrCodeImage: '/products/a550-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406550.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510iw2wQPp9cb6304224A"
   }
 ];
