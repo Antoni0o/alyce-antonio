@@ -79,7 +79,7 @@ const gifts: GiftInfoType[] = [
   },
   {
     title: "Jogo de Sobremesa",
-    photo: '/products/jogo-sobremesa.jpg',
+    photo: '/products/jogo-sobremesa.jpeg',
     price: 45.00,
     qrCodeImage: '/products/a45-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540545.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510hknxK7Yigr63042553"
@@ -113,12 +113,33 @@ const gifts: GiftInfoType[] = [
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406275.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510wyPX7vbtkE6304714E"
   },
   {
-    title: "Microondas",
-    photo: '/products/microondas.png',
-    price: 550.00,
-    qrCodeImage: '/products/a550-qrcode.png',
-    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406550.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510iw2wQPp9cb6304224A"
-  }
+    title: "Porta Sapatos",
+    photo: '/products/porta-sapatos.jpg',
+    price: 70.00,
+    qrCodeImage: '/products/a70-qrcode.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540570.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510KQFwbfFsdC6304F69E"
+  },
+  {
+    title: "Potes",
+    photo: '/products/potes.jpeg',
+    price: 50.00,
+    qrCodeImage: '/products/a50-qrcode.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540550.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510u31vAP98gr63044D1D"
+  },
+  {
+    title: "Jogo de Toalhas",
+    photo: '/products/jogo-toalhas.jpeg',
+    price: 150.00,
+    qrCodeImage: '/products/a150-qrcode.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406150.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510gO3buf3QfN63043DEB"
+  },
+  {
+    title: "Estante",
+    photo: '/products/estante-livros.jpeg',
+    price: 260.00,
+    qrCodeImage: '/products/a260-qrcode.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406260.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510v9rS41WaDV6304CBE1"
+  },
 ];
 
 const pixData: PixDataType = {
