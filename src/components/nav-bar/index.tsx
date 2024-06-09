@@ -42,6 +42,9 @@ export default function Navbar() {
                 <Link href={'/presentes'}>
                   <li className={pathname == "/presentes" ? "selected menu-item" : "menu-item"}>Presentes</li>
                 </Link>
+                <Link href={'/sobre-nos'}>
+                  <li className={pathname == "/sobre-nos" ? "selected menu-item" : "menu-item"}>Sobre Nós</li>
+                </Link>
               </ul>
             </div>
           </SheetContent>
@@ -57,6 +60,9 @@ export default function Navbar() {
           </Link>
           <Link href={'/presentes'}>
             <li className={pathname == "/presentes" ? "selected menu-item" : "menu-item"}>Presentes</li>
+          </Link>
+          <Link href={'/sobre-nos'}>
+            <li className={pathname == "/sobre-nos" ? "selected menu-item" : "menu-item"}>Sobre nós</li>
           </Link>
         </ul>
       </div>
