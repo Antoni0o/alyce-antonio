@@ -1,5 +1,17 @@
 .about-us-wrapper {
-  @apply flex flex-col h-full px-4 py-6 gap-4;
+  @apply flex flex-col w-full px-4 py-6 gap-4;
+}
+
+.about-us-wrapper h1 {
+  @apply font-bold;
+}
+
+.about-us-wrapper .header {
+  @apply flex flex-col justify-between gap-5 md:flex-row;
+}
+
+.about-us-wrapper .header .texts-side {
+  @apply flex flex-col justify-between gap-6 h-full text-justify md:w-2/4;
 }
 
 .text {

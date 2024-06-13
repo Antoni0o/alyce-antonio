@@ -100,7 +100,7 @@
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr 16fr 1fr;
-  @apply overflow-x-hidden overflow-y-scroll md:overflow-y-hidden
+  @apply overflow-x-hidden overflow-y-scroll
 }
  
 @layer base {
