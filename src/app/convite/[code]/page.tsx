@@ -56,7 +56,7 @@ export default async function ValidatedInvitePage({ params: { code } }: CodePage
               </p>
               <hr className="my-2" />
               <div className="ceremony-info">
-                <p>A cerimônia ocorrerá no dia 20 de julho, às 9:00</p>
+                <p>A cerimônia ocorrerá no dia 20 de julho, às 10:00</p>
                 <p>O endereço para celebrar esse momento conosco é: Rua MMDC, 117, Vila Passos, Lorena - SP</p>
               </div>
             </CardContent>
