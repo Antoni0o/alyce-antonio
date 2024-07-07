@@ -140,6 +140,27 @@ const gifts: GiftInfoType[] = [
     qrCodeImage: '/products/a260-qrcode.png',
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406260.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510v9rS41WaDV6304CBE1"
   },
+  {
+    title: "Processador de Alimentos",
+    photo: '/products/processador-alimentos.jpeg',
+    price: 150.00,
+    qrCodeImage: '/products/a150-qrcode.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406150.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510gO3buf3QfN63043DEB"
+  },
+  {
+    title: "Grill",
+    photo: '/products/grill.jpeg',
+    price: 150.00,
+    qrCodeImage: '/products/a150-qrcode.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406150.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510gO3buf3QfN63043DEB"
+  },
+  {
+    title: "Aromatizador",
+    photo: '/products/aromatizador.jpeg',
+    price: 80.00,
+    qrCodeImage: '/products/a80-qrcode.png',
+    qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540580.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510iI2FjeKNIg63049B05"
+  },
 ];
 
 const pixData: PixDataType = {
