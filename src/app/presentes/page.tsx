@@ -50,13 +50,6 @@ const gifts: GiftInfoType[] = [
     qrCode: "00020126360014BR.GOV.BCB.PIX0114+5512996406372520400005303986540570.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510KQFwbfFsdC6304F69E"
   },
   {
-    title: "Cafeteira",
-    photo: '/products/cafeteira.png',
-    price: 150.00,
-    qrCodeImage: '/products/a150-qrcode.png',
-    qrCode: "00020126360014BR.GOV.BCB.PIX0114+55129964063725204000053039865406150.005802BR5923Antonio Dias Maia Costa6009SAO PAULO62140510gO3buf3QfN63043DEB"
-  },
-  {
     title: "Máquina de Lavar Roupas",
     photo: '/products/maquina-roupas.png',
     price: 1400.00,
